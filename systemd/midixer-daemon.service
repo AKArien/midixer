@@ -5,7 +5,7 @@ PartOf=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=%h/.local/bin/midixer-daemon
+ExecStart=midixer-daemon
 Restart=on-failure
 RestartSec=5
 

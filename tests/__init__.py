@@ -1,1 +1,1 @@
-"""Tests for common module"""
+"""Tests for midixer package"""

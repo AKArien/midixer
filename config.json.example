@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "midi_device": "Akai MPK Mini",
+      "midi_channel": 0,
+      "midi_control": 1,
+      "pipewire_node_id": 42,
+      "pipewire_node_name": "Firefox"
+    },
+    {
+      "midi_device": "Akai MPK Mini",
+      "midi_channel": 0,
+      "midi_control": 2,
+      "pipewire_node_id": 45,
+      "pipewire_node_name": "Spotify"
+    }
+  ]
+}

@@ -212,5 +212,5 @@ MIT License - See LICENSE file for details
 ## Acknowledgments
 
 - Built with [python-rtmidi](https://pypi.org/project/python-rtmidi/)
-- Pipewire integration via [pywireplumber](https://gitlab.freedesktop.org/pipewire/wireplumber)
+- Pipewire integration via wpctl (Wireplumber command-line tool)
 - GUI built with [GTK](https://www.gtk.org/) and [PyGObject](https://pygobject.readthedocs.io/)

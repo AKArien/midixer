@@ -40,9 +40,8 @@ dev = [
     "mypy>=1.0.0",
 ]
 
-# Note: pywireplumber is not available on PyPI
-# Install from system packages: python3-wireplumber or build from source
-# https://gitlab.freedesktop.org/pipewire/wireplumber
+# Note: Pipewire integration uses wpctl command-line tool from Wireplumber
+# Ensure Wireplumber is installed on your system
 
 [project.scripts]
 midixer-daemon = "midixer.daemon.main:main"

@@ -2,10 +2,11 @@
 
 import sys
 import gi
-gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk
 
-from .window import MidixerWindow
+gi.require_version("Gtk", "3.0")
+from gi.repository import Gtk  # noqa: E402
+
+from .window import MidixerWindow  # noqa: E402
 
 
 def main():
@@ -17,5 +18,5 @@ def main():
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(main())

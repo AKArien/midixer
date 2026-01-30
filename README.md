@@ -70,8 +70,18 @@ pip install .
 # Run in foreground
 midixer-daemon
 
-# Run in background (systemd user service recommended)
+# Run in background with systemd (recommended)
+# Copy service file
+mkdir -p ~/.config/systemd/user/
+cp systemd/midixer-daemon.service ~/.config/systemd/user/
+
+# Enable and start service
+systemctl --user daemon-reload
+systemctl --user enable midixer-daemon
 systemctl --user start midixer-daemon
+
+# Check status
+systemctl --user status midixer-daemon
 ```
 
 ### Using the GUI

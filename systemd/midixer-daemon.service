@@ -1,0 +1,13 @@
+[Unit]
+Description=Midixer MIDI Volume Controller Daemon
+After=pipewire.service
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/midixer-daemon
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
